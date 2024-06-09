@@ -1,0 +1,14 @@
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
+
+# Direnv
+*lock.hcl
+
+# env
+terraform.tfvars
+.env
+
+#b
+b/

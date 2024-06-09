@@ -39,3 +39,14 @@ Creating a Full CI/CD Pipeline on AWS with Jenkins, Slack, and GitHub
 `npm i loadtest`
 
 `npm run test:load`
+
+# aws setup
+
+`./sessioner.sh -p profile -t 123456`
+
+`export AWS_PROFILE=profile`
+
+`cd terraform && cp terraform.tfvars.sample terraform.tfvars`
+
+`terraform init`
+
